@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guerrero & Asociados | Bufete d'Advocats – Miami Platja</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Barlow:wght@300;400;500;600&family=Barlow+Condensed:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     NAVBAR
+════════════════════════════════════════════ -->
+<nav>
+  <a class="nav-logo" href="#hero">Guerrero <span>& Asociados</span></a>
+  <ul class="nav-links">
+    <li><a href="#video">Vídeo</a></li>
+    <li><a href="#podcast">Podcast</a></li>
+    <li><a href="#slideshow">Carrusel</a></li>
+    <li><a href="#serveis">Serveis</a></li>
+    <li><a href="#equip">Equip</a></li>
+    <li><a href="#mapa">Ubicació</a></li>
+    <li><a href="#contacte">Contacte</a></li>
+  </ul>
+  <a href="#contacte" class="nav-cta">Consulta gratuïta</a>
+</nav>
+
+
+<!-- ═══════════════════════════════════════════
+     HERO
+════════════════════════════════════════════ -->
+<section id="hero">
+  <p class="hero-eyebrow">Bufete d'Advocats · Miami Platja, Tarragona</p>
+  <h1 class="hero-title">
+    Defensa legal<br/><em>sense concessions.</em>
+  </h1>
+  <p class="hero-sub">
+    Més de 20 anys protegint els drets dels nostres clients amb rigor, confidencialitat i una dedicació absoluta al resultat.
+  </p>
+  <div class="hero-btns">
+    <a href="#contacte" class="btn-primary">Sol·licita assessorament</a>
+    <a href="#serveis" class="btn-outline">Els nostres serveis</a>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    Desplaça't
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     VÍDEO PROMOCIONAL  (2.1 – 40 %)
+════════════════════════════════════════════ -->
+<section id="video">
+  <div class="reveal">
+    <p class="section-label">Multimèdia · Vídeo promocional</p>
+    <h2 class="section-title">Coneix el nostre <em>bufete</em></h2>
+    <div class="divider"></div>
+    <p class="video-desc">
+      Un equip d'advocats especialitzats, compromesos amb la justícia i el resultat. Descobreix qui som i per què milers de clients han confiat en nosaltres.
+    </p>
+  </div>
+
+  <!-- VÍDEO PRINCIPAL – substiteix "promo.mp4" pel fitxer real -->
+  <div class="video-wrapper reveal">
+    <video class="video-native" controls preload="metadata">
+      <source src="video/Video_Final.mp4" type="video/mp4" />
+      El teu navegador no suporta vídeo HTML5.
+    </video>
+    <!--
+      INSTRUCCIONS:
+      1. Crea el vídeo promocional (mínim 30 s, màxim 3 min)
+         amb DaVinci Resolve / Shotcut / Adobe Premiere.
+      2. Exporta'l com "promo.mp4" i posa'l al mateix directori.
+      3. Descomenta l'etiqueta <video> i elimina el <div class="video-placeholder">.
+    -->
+    <!--
+    <video class="video-native" controls poster="poster.jpg" preload="metadata">
+      <source src="promo.mp4" type="video/mp4" />
+      El teu navegador no suporta vídeo HTML5.
+    </video>
+    -->
+    <div class="video-placeholder" style="display:none;">
+      <div class="play-icon"></div>
+      <p>Vídeo promocional · promo.mp4 pendent d'edició</p>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     PODCAST CORPORATIU  (2.2 – 20 %)
+════════════════════════════════════════════ -->
+<section id="podcast">
+  <div class="reveal">
+    <p class="section-label">Multimèdia · Podcast corporatiu</p>
+    <h2 class="section-title">Veu del <em>bufete</em></h2>
+    <div class="divider"></div>
+  </div>
+
+  <div class="podcast-card reveal">
+    <div class="podcast-header">
+      <div class="podcast-icon">
+        <!-- Microfon SVG -->
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 1a4 4 0 0 1 4 4v6a4 4 0 0 1-8 0V5a4 4 0 0 1 4-4zm0 2a2 2 0 0 0-2 2v6a2 2 0 0 0 4 0V5a2 2 0 0 0-2-2zm-1 14.93V20H9v2h6v-2h-2v-2.07A8.001 8.001 0 0 0 20 11h-2a6 6 0 0 1-12 0H4a8.001 8.001 0 0 0 7 7.93z"/>
+        </svg>
+      </div>
+      <div class="podcast-meta">
+        <h3>Guerrero & Asociados Podcast</h3>
+        <p>Ep. 01 · Visió, valors i objectius del bufete · ~12 min</p>
+      </div>
+    </div>
+
+    <p class="podcast-desc">
+      En aquest primer episodi, el soci fundador Eduardo Guerrero explica la filosofia del bufete, els seus orígens a Miami Platja, els àmbits d'especialització i el compromís amb cadascun dels clients. Una conversa directa i transparente sobre com treballem.
+    </p>
+
+    <div class="audio-player">
+      <!--
+        INSTRUCCIONS:
+        1. Grava o genera el podcast (IA o veu pròpia) i exporta'l com "podcast-ep01.mp3".
+        2. Posa'l al directori del projecte.
+        3. Descomenta l'etiqueta <audio> i elimina la nota de baix.
+      -->
+      <!--
+      <audio controls preload="metadata" style="width:100%;">
+        <source src="podcast-ep01.mp3" type="audio/mpeg" />
+        El teu navegador no suporta l'element d'àudio.
+      </audio>
+      -->
+
+      <audio controls preload="metadata" style="width:100%;">
+        <source src="video/Podcast_Final.MP3" type="audio/mpeg" />
+        El navegador no suporta àudio HTML5.
+      </audio>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     SLIDESHOW / CARRUSEL  (2.3 – 15 %)
+════════════════════════════════════════════ -->
+<section id="slideshow">
+  <div class="reveal">
+    <p class="section-label">Multimèdia · Carrusel d'imatges</p>
+    <h2 class="section-title">La nostra <em>identitat visual</em></h2>
+    <div class="divider"></div>
+    <p style="font-size:.9rem;color:var(--text-muted);max-width:560px;margin-bottom:2rem;">
+      Quatre imatges promocionals editades amb GIMP que combinen capes, efectes visuals, tractament tipogràfic i una composició orientada al missatge del bufete.
+    </p>
+  </div>
+
+  <div class="carousel reveal" id="carousel">
+    <div class="carousel-track" id="carouselTrack">
+
+      <div class="slide">
+        <img class="slide-img" src="img/Foto_1.png" alt="Imatge promocional del bufete sobre defensa legal i assessorament especialitzat" />
+        <div class="slide-caption">
+          <h3>Defensa legal amb caràcter</h3>
+          <p>Composició promocional editada amb GIMP · capes, contrast i jerarquia visual</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img class="slide-img" src="img/Foto_2.png" alt="Imatge corporativa del bufete amb tractament tipogràfic i elements gràfics promocionals" />
+        <div class="slide-caption">
+          <h3>Imatge corporativa coherent</h3>
+          <p>Tractament tipogràfic i combinació d'elements gràfics per reforçar la marca</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img class="slide-img" src="img/Foto_3.png" alt="Imatge vertical promocional del bufete adaptada al carrusel amb enquadrament uniforme" />
+        <div class="slide-caption">
+          <h3>Missatge visual impactant</h3>
+          <p>Imatge vertical integrada amb retall net, focus central i presentació homogènia</p>
+        </div>
+      </div>
+
+      <div class="slide">
+        <img class="slide-img" src="img/Foto_4.png" alt="Quarta imatge promocional del bufete amb composició visual orientada a la confiança" />
+        <div class="slide-caption">
+          <h3>Confiança i professionalitat</h3>
+          <p>Peça final de la sèrie amb efectes visuals i composició pensada per a web</p>
+        </div>
+      </div>
+
+    </div><!-- /carousel-track -->
+
+    <button class="carousel-btn prev" id="prevBtn" aria-label="Anterior">&#8249;</button>
+    <button class="carousel-btn next" id="nextBtn" aria-label="Següent">&#8250;</button>
+  </div>
+
+  <div class="carousel-dots" id="carouselDots">
+    <div class="dot active" data-idx="0"></div>
+    <div class="dot" data-idx="1"></div>
+    <div class="dot" data-idx="2"></div>
+    <div class="dot" data-idx="3"></div>
+  </div>
+  <p class="slide-note reveal">
+    El carrusel mostra les 4 peces promocionals de la carpeta <code>img</code> amb un format comú perquè es percebin com una mateixa campanya visual.
+  </p>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     SERVEIS
+════════════════════════════════════════════ -->
+<section id="serveis">
+  <div class="reveal">
+    <p class="section-label">Especialitats jurídiques</p>
+    <h2 class="section-title">Els nostres <em>serveis</em></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="serveis-grid">
+    <div class="servei-card reveal">
+      <div class="servei-num">01</div>
+      <h3>Dret Penal</h3>
+      <p>Defensa en delictes, recursos davant l'Audiència Provincial i Tribunal Suprem. Assistència a detinguts les 24 hores.</p>
+    </div>
+    <div class="servei-card reveal">
+      <div class="servei-num">02</div>
+      <h3>Dret de Família</h3>
+      <p>Divorcis de mutu acord i contenciosos, custòdia de menors, pensions alimentàries i règim de visites.</p>
+    </div>
+    <div class="servei-card reveal">
+      <div class="servei-num">03</div>
+      <h3>Dret Mercantil</h3>
+      <p>Constitució de societats, redacció i revisió de contractes, litigis mercantils i concursos d'acreedors.</p>
+    </div>
+    <div class="servei-card reveal">
+      <div class="servei-num">04</div>
+      <h3>Dret Immobiliari</h3>
+      <p>Compraventa d'immobles, arrendaments, reclamació de vicis ocults i procediments desnonament.</p>
+    </div>
+    <div class="servei-card reveal">
+      <div class="servei-num">05</div>
+      <h3>Dret Laboral</h3>
+      <p>Acomiadaments improcedents, reclamació de salaris, accidents laborals i negociació col·lectiva.</p>
+    </div>
+    <div class="servei-card reveal">
+      <div class="servei-num">06</div>
+      <h3>Dret Administratiu</h3>
+      <p>Recursos contencioso-administratius, llicències, sancions i reclamació a l'Administració Pública.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     EQUIP
+════════════════════════════════════════════ -->
+<section id="equip">
+  <div class="reveal">
+    <p class="section-label">Professionals</p>
+    <h2 class="section-title">El nostre <em>equip</em></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="equip-grid">
+    <div class="membre-card reveal">
+      <div class="membre-foto"><div class="membre-initials">EG</div></div>
+      <h3>Eduardo Guerrero</h3>
+      <p class="rol">Soci fundador · Penal</p>
+      <p>Llicenciat per la Universitat de Barcelona. Màster en Dret Penal Avançat. Més de 20 anys d'experiència.</p>
+    </div>
+    <div class="membre-card reveal">
+      <div class="membre-foto"><div class="membre-initials">MV</div></div>
+      <h3>Marta Vidal</h3>
+      <p class="rol">Sòcia · Família i Civil</p>
+      <p>Especialista en dret de família i successions. Mediadora certificada per la Generalitat de Catalunya.</p>
+    </div>
+    <div class="membre-card reveal">
+      <div class="membre-foto"><div class="membre-initials">JR</div></div>
+      <h3>Joan Ribes</h3>
+      <p class="rol">Advocat · Mercantil</p>
+      <p>Expert en dret societari i M&A. Assessora empreses de la zona del Camp de Tarragona des del 2010.</p>
+    </div>
+    <div class="membre-card reveal">
+      <div class="membre-foto"><div class="membre-initials">AC</div></div>
+      <h3>Anna Castillo</h3>
+      <p class="rol">Advocada · Laboral i Admin.</p>
+      <p>Especialitzada en relacions laborals i dret administratiu. Professora associada a la URV.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     MAPA INTERACTIU  (2.4 – 10 %)
+════════════════════════════════════════════ -->
+<section id="mapa">
+  <div class="reveal">
+    <p class="section-label">Ubicació · Mapa interactiu</p>
+    <h2 class="section-title">On <em>trobar-nos</em></h2>
+    <div class="divider"></div>
+  </div>
+
+  <div class="map-grid reveal">
+    <div class="map-info">
+      <h3>Guerrero & Asociados</h3>
+
+      <div class="map-detail">
+        <div class="map-detail-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        </div>
+        <div class="map-detail-text">
+          <strong>Adreça</strong>
+          <span>Av. de la Mediterrània, 42, 2n 2a<br/>43892 Miami Platja (Mont-roig del Camp), Tarragona</span>
+        </div>
+      </div>
+
+      <div class="map-detail">
+        <div class="map-detail-icon">
+          <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        </div>
+        <div class="map-detail-text">
+          <strong>Telèfon</strong>
+          <span>+34 977 810 000</span>
+        </div>
+      </div>
+
+      <div class="map-detail">
+        <div class="map-detail-icon">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </div>
+        <div class="map-detail-text">
+          <strong>Correu electrònic</strong>
+          <span>info@guerrero-asociados.cat</span>
+        </div>
+      </div>
+
+      <div class="map-detail">
+        <div class="map-detail-icon">
+          <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+        </div>
+        <div class="map-detail-text">
+          <strong>Horari d'atenció</strong>
+          <span>Dl–Dj 9:00–18:00 · Dv 9:00–14:00<br/>Urgències penals: 24h</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-embed">
+      <!--
+        Google Maps Embed – Miami Platja (Mont-roig del Camp)
+        Nota: per a producció, genera una clau d'API de Google Maps
+        i substitueix el paràmetre "key=YOUR_API_KEY" per la teva clau real.
+        L'embed sense clau pot mostrar un avís però funcionarà per a proves.
+      -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d809.5329650937716!2d0.9389748391568309!3d41.00869194020965!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sca!2ses!4v1775490764479!5m2!1sca!2ses"
+        width="100%" height="380"
+        style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Localització Guerrero & Asociados – Miami Platja">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     INFOGRAFIA INTERACTIVA  (2.5 – 15 %)
+════════════════════════════════════════════ -->
+<section id="infografia">
+  <div class="reveal">
+    <p class="section-label">Interactiu · Infografia</p>
+    <h2 class="section-title">Com <em>treballem</em></h2>
+    <div class="divider"></div>
+    <p class="infografia-sub">
+      Fes clic a cada àrea per descobrir els serveis, el procés i els valors del bufete. Infografia interactiva creada com a complement de Canva.
+    </p>
+  </div>
+
+  <!--
+    OPCIÓ A (RECOMANADA): Insereix aquí l'iframe de Canva un cop creada la infografia.
+    Exemple:
+    <div class="infografia-embed reveal">
+      <iframe src="https://www.canva.com/design/XXX/view?embed"
+              height="600" frameborder="0" allowfullscreen
+              title="Infografia Guerrero & Asociados"></iframe>
+    </div>
+  -->
+
+  <!-- OPCIÓ B: Infografia HTML interactiva integrada (funcional ara mateix) -->
+  <div class="infografia-html reveal" id="infografiaApp">
+    <p class="infografia-title">Guerrero & Asociados</p>
+    <p class="infografia-subtitle">Fes clic per explorar · Bufete integral a Miami Platja</p>
+
+    <div class="info-grid">
+      <div class="info-card" data-area="penal" onclick="toggleInfo(this,'penal')">
+        <span class="info-card-icon">⚖️</span>
+        <h4>Dret Penal</h4>
+        <p>Defensa 24 h · Instrucció · Judici oral</p>
+      </div>
+      <div class="info-card" data-area="familia" onclick="toggleInfo(this,'familia')">
+        <span class="info-card-icon">👨‍👩‍👧</span>
+        <h4>Família i Civil</h4>
+        <p>Divorcis · Herències · Mediació</p>
+      </div>
+      <div class="info-card" data-area="mercantil" onclick="toggleInfo(this,'mercantil')">
+        <span class="info-card-icon">🏢</span>
+        <h4>Mercantil</h4>
+        <p>Societats · Contractes · Litigis</p>
+      </div>
+      <div class="info-card" data-area="laboral" onclick="toggleInfo(this,'laboral')">
+        <span class="info-card-icon">👷</span>
+        <h4>Laboral</h4>
+        <p>Acomiadaments · ERTOs · Accidents</p>
+      </div>
+      <div class="info-card" data-area="immobiliari" onclick="toggleInfo(this,'immobiliari')">
+        <span class="info-card-icon">🏠</span>
+        <h4>Immobiliari</h4>
+        <p>Compravenda · Arrendaments · Vicis</p>
+      </div>
+      <div class="info-card" data-area="admin" onclick="toggleInfo(this,'admin')">
+        <span class="info-card-icon">📋</span>
+        <h4>Administratiu</h4>
+        <p>Recursos · Llicències · Sancions</p>
+      </div>
+    </div>
+
+    <div class="info-detail" id="detail-penal">
+      <h4>⚖️ Dret Penal — Serveis detallats</h4>
+      <ul>
+        <li>Assistència immediata al detingut (24 h)</li>
+        <li>Defensa en fase d'instrucció i judici oral</li>
+        <li>Delictes econòmics i frau fiscal</li>
+        <li>Violència de gènere i domèstica</li>
+        <li>Trànsit i delictes de conducció</li>
+        <li>Recursos davant l'Audiència Provincial i Tribunal Suprem</li>
+      </ul>
+    </div>
+    <div class="info-detail" id="detail-familia">
+      <h4>👨‍👩‍👧 Dret de Família — Serveis detallats</h4>
+      <ul>
+        <li>Divorci de mutu acord i contenciós</li>
+        <li>Custòdia de menors i règim de visites</li>
+        <li>Pensions alimentàries i compensatòries</li>
+        <li>Testaments i particions hereditàries</li>
+        <li>Mediació familiar certificada</li>
+        <li>Modificació de mesures definitives</li>
+      </ul>
+    </div>
+    <div class="info-detail" id="detail-mercantil">
+      <h4>🏢 Dret Mercantil — Serveis detallats</h4>
+      <ul>
+        <li>Constitució de societats (SL, SA, cooperatives)</li>
+        <li>Redacció i revisió de contractes mercantils</li>
+        <li>Fusions, adquisicions i escissions (M&A)</li>
+        <li>Concursos de creditors</li>
+        <li>Reclamació de deutes B2B</li>
+        <li>Propietat intel·lectual i industrial</li>
+      </ul>
+    </div>
+    <div class="info-detail" id="detail-laboral">
+      <h4>👷 Dret Laboral — Serveis detallats</h4>
+      <ul>
+        <li>Acomiadaments improcedents i nuls</li>
+        <li>Reclamació de salaris i hores extra</li>
+        <li>Accidents de treball i malalties professionals</li>
+        <li>ERTOs i EREs (assessorament a empresa i treballadors)</li>
+        <li>Negociació de convenis col·lectius</li>
+        <li>Assetjament laboral (mobbing)</li>
+      </ul>
+    </div>
+    <div class="info-detail" id="detail-immobiliari">
+      <h4>🏠 Dret Immobiliari — Serveis detallats</h4>
+      <ul>
+        <li>Compravenda d'immobles i locals comercials</li>
+        <li>Arrendaments residencials i comercials</li>
+        <li>Reclamació de vicis ocults i defectes constructius</li>
+        <li>Procediments de desnonament</li>
+        <li>Divisió de cosa comuna</li>
+        <li>Propietat horitzontal i comunitats de propietaris</li>
+      </ul>
+    </div>
+    <div class="info-detail" id="detail-admin">
+      <h4>📋 Dret Administratiu — Serveis detallats</h4>
+      <ul>
+        <li>Recursos contencioso-administratius</li>
+        <li>Impugnació de sancions i multes</li>
+        <li>Llicències d'activitat i urbanisme</li>
+        <li>Reclamació de responsabilitat patrimonial</li>
+        <li>Contractació pública i concursos</li>
+        <li>Dret mediambiental</li>
+      </ul>
+    </div>
+  </div>
+
+  <p style="font-size:.78rem;color:rgba(255,255,255,0.3);font-style:italic;margin-top:1rem;" class="reveal">
+    ★ Complementa amb la infografia de Canva (substitueix el bloc anterior per l'iframe d'incrustació).
+  </p>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     CONTACTE
+════════════════════════════════════════════ -->
+<section id="contacte">
+  <div class="reveal">
+    <p class="section-label" style="color:var(--gold-light);">Consulta gratuïta</p>
+    <h2 class="section-title">Parlem <em>del teu cas</em></h2>
+    <div class="divider"></div>
+  </div>
+
+  <div class="contacte-grid reveal">
+    <form class="contacte-form" onsubmit="enviaFormulari(event)">
+      <div class="form-group">
+        <label>Nom complet</label>
+        <input type="text" placeholder="Elena García Martínez" required />
+      </div>
+      <div class="form-group">
+        <label>Correu electrònic</label>
+        <input type="email" placeholder="elena@exemple.com" required />
+      </div>
+      <div class="form-group">
+        <label>Telèfon</label>
+        <input type="tel" placeholder="+34 600 000 000" />
+      </div>
+      <div class="form-group">
+        <label>Àrea jurídica</label>
+        <select required>
+          <option value="">Selecciona una àrea…</option>
+          <option>Dret Penal</option>
+          <option>Dret de Família</option>
+          <option>Dret Mercantil</option>
+          <option>Dret Laboral</option>
+          <option>Dret Immobiliari</option>
+          <option>Dret Administratiu</option>
+          <option>Altra consulta</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Descriu breument el teu cas</label>
+        <textarea placeholder="Explica'ns la teva situació de manera general. La informació és confidencial." required></textarea>
+      </div>
+      <button type="submit" class="btn-primary" style="align-self:flex-start;">
+        Enviar consulta
+      </button>
+      <p id="form-msg" style="font-size:.82rem;color:var(--gold-light);display:none;margin-top:.3rem;">
+        ✓ Missatge enviat. Ens posarem en contacte en 24 h.
+      </p>
+    </form>
+
+    <div class="contacte-info">
+      <div class="ci-item">
+        <div class="ci-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        </div>
+        <div class="ci-text">
+          <strong>Adreça</strong>
+          <span>Av. de la Mediterrània, 42, 2n 2a<br/>43892 Miami Platja, Tarragona</span>
+        </div>
+      </div>
+      <div class="ci-item">
+        <div class="ci-icon">
+          <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        </div>
+        <div class="ci-text">
+          <strong>Telèfon / Urgències</strong>
+          <span>+34 977 810 000<br/>Urgències penals 24 h: +34 600 810 000</span>
+        </div>
+      </div>
+      <div class="ci-item">
+        <div class="ci-icon">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </div>
+        <div class="ci-text">
+          <strong>Email</strong>
+          <span>info@guerrero-asociados.cat</span>
+        </div>
+      </div>
+      <div class="ci-item">
+        <div class="ci-icon">
+          <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+        </div>
+        <div class="ci-text">
+          <strong>Horaris</strong>
+          <span>Dl–Dj: 9:00–18:00<br/>Divendres: 9:00–14:00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════ -->
+<footer>
+  <div class="footer-logo">Guerrero <span>& Asociados</span></div>
+  <p>© 2025 Guerrero & Asociados, S.L.P. · Col·legi d'Advocats de Tarragona núm. 2847 · Tots els drets reservats</p>
+  <p>Miami Platja · Tarragona · Catalunya</p>
+</footer>
+
+
+<!-- ═══════════════════════════════════════════
+     JAVASCRIPT
+════════════════════════════════════════════ -->
+<script>
+  /* ── Carrusel ── */
+  let current = 0;
+  const track = document.getElementById('carouselTrack');
+  const slides = track.querySelectorAll('.slide');
+  const dots   = document.querySelectorAll('.dot');
+  const total  = slides.length;
+  let autoTimer;
+
+  function goTo(idx) {
+    current = (idx + total) % total;
+    track.style.transform = `translateX(-${current * 100}%)`;
+    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+  }
+
+  document.getElementById('prevBtn').addEventListener('click', () => { goTo(current - 1); resetAuto(); });
+  document.getElementById('nextBtn').addEventListener('click', () => { goTo(current + 1); resetAuto(); });
+  dots.forEach(d => d.addEventListener('click', () => { goTo(+d.dataset.idx); resetAuto(); }));
+
+  function startAuto() { autoTimer = setInterval(() => goTo(current + 1), 5000); }
+  function resetAuto()  { clearInterval(autoTimer); startAuto(); }
+  startAuto();
+
+  /* ── Infografia interactiva ── */
+  function toggleInfo(card, area) {
+    const allCards  = document.querySelectorAll('.info-card');
+    const allDetail = document.querySelectorAll('.info-detail');
+    const detail    = document.getElementById('detail-' + area);
+    const isOpen    = card.classList.contains('active');
+
+    allCards.forEach(c  => c.classList.remove('active'));
+    allDetail.forEach(d => d.classList.remove('visible'));
+
+    if (!isOpen) {
+      card.classList.add('active');
+      detail.classList.add('visible');
+    }
+  }
+
+  /* ── Formulari contacte ── */
+  function enviaFormulari(e) {
+    e.preventDefault();
+    const msg = document.getElementById('form-msg');
+    msg.style.display = 'block';
+    setTimeout(() => { msg.style.display = 'none'; e.target.reset(); }, 5000);
+  }
+
+  /* ── Scroll reveal ── */
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
